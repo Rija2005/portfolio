@@ -1,0 +1,117 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    
+}
+#nav-name{
+    margin-left: 140px;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+   
+}
+.name{
+    display: block;
+    justify-content: space-between;
+    padding-right: 200px;
+    font-weight: bolder;
+    font-size: 25px;
+    text-transform: uppercase;
+   
+}
+.name a:hover{
+    color: blue;
+border-top: 2px solid goldenrod;
+border-bottom: 2px solid goldenrod; 
+
+}
+.section{
+    height: 700px;
+    background-color: rgba(229, 206, 250, 0.751);
+}
+.heading{
+    padding-left: 170px;
+    padding-top: 200px;
+    text-transform: uppercase;
+    font-size: 2px;
+   opacity: 0.5;
+}
+.info{
+    padding-left: 170px;
+   text-transform: none;
+    font-size: 40px;
+    word-spacing: 12px;
+    font-weight: normal;
+    color: black;
+    line-height: 20px;
+}
+.information{
+    padding-top: 23px;
+    padding-left: 170px;
+    text-transform: none;
+    font-size: 20px;
+    font-weight: normal;
+}
+.but-1{
+    font-weight: 100;
+    color: blueviolet;
+    margin-left: 170px;
+    text-transform: uppercase;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}
+.hov:hover{
+   background-color:  rgba(213, 179, 244, 0.749);
+}
+.but-2{
+    font-weight: 100;
+    color: blueviolet;
+    text-transform: uppercase;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}
+img{
+    border: 2px solid blueviolet;
+    float: right;
+   border-radius: 50%;
+   margin-top: 150px;
+}
+@media screen and (max-width: 768px) {
+    #nav-name {
+        font-size: 24px;
+        margin-left: 20px;
+    }
+    .name a {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .section {
+        padding: 20px;
+    }
+    .heading h4 {
+        font-size: 24px;
+    }
+    .info h2 {
+        font-size: 32px;
+    }
+    .information {
+        font-size: 18px;
+    }
+    .but-1, .but-2 {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+}
